@@ -1,0 +1,33 @@
+.info-container .title-image {
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.title-image h1 {
+    z-index: 10;
+    text-shadow: 1px 1px #dfded4;
+    background: rgba(159, 168, 174, 0.8);
+    border-radius: 10px;
+    opacity: 1;
+    padding: 1rem;
+    margin: 0;
+}
+
+.title-image img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    -webkit-filter: grayscale(80%);
+    filter: grayscale(80%);
+}
+
+.content {
+    font-family: 'Montserrat', open-sans;
+    padding: 1rem 10%;
+}

@@ -1,0 +1,41 @@
+.app-nav {
+    /* background: linear-gradient(90,#9fa8ae, #c4cbcd); */
+    background: #9fa8ae;
+    height: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 20%;
+  }
+
+  nav ul {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+  }
+
+  nav li {
+    height:100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+  }
+
+  nav a {
+    color: #4a4b4d;
+    text-decoration: none;
+    font-weight: normal;
+    align-self: center;
+  }
+
+  nav li:hover {
+    background-color: #c4cbcd;
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+  }
